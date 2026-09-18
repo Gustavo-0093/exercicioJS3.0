@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Exercício 1 - Saudação</h1>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+    <button id="btnOla">Olá</button>
+    <p id="resultado"></p>
+
+    <hr>
+
+    <h1 id="titulo">SESI</h1>
+    <button id="btnAlterar">Alterar título</button>
+
+    <hr>
+
+    <h1>Exercício 3 - Contador</h1>
+    <button id="btnContador">Clique aqui</button>
+    <p id="contador">Cliques: 0</p>
+
+    <hr>
+
+    <h1>Exercício 4 - Atendimento</h1>
+    <p id="status4">Atendimento fechado</p>
+    <button id="btn4">Abrir atendimento</button>
+
+    <hr>
+
+    <h1>Exercício 5 - Produto</h1>
+    <input type="text" id="produto5" placeholder="Produto">
+    <input type="number" id="quantidade5" placeholder="Quantidade">
+    <input type="number" id="preco5" placeholder="Preço">
+    <button id="btn5">Calcular total</button>
+    <p id="resultado5"></p>
+
+    <hr>
+
+    <h1>Exercício 6 - Média</h1>
+    <input type="number" id="nota61" placeholder="Nota 1">
+    <input type="number" id="nota62" placeholder="Nota 2">
+    <input type="number" id="nota63" placeholder="Nota 3">
+    <button id="btn6">Calcular média</button>
+    <p id="resultado6"></p>
+
+    <hr>
+
+    <h1>Exercício 7 - Cadastro</h1>
+    <input type="text" id="nome7" placeholder="Nome">
+    <input type="email" id="email7" placeholder="Email">
+    <input type="password" id="senha7" placeholder="Senha">
+    <button id="btn7">Cadastrar</button>
+    <p id="resultado7"></p>
+
+    <hr>
+
+    <h1>Exercício 8 - Estoque</h1>
+    <input type="text" id="produto8" placeholder="Produto">
+    <input type="number" id="estoque8" placeholder="Quantidade disponível">
+    <input type="number" id="pedido8" placeholder="Quantidade solicitada">
+    <button id="btn8">Verificar estoque</button>
+    <p id="resultado8"></p>
+
+    <hr>
+
+    <h1>Exercício 9 - Lista de tarefas</h1>
+    <input type="text" id="tarefa9" placeholder="Digite uma tarefa">
+    <button id="btn9">Adicionar</button>
+    <ul id="lista9"></ul>
+
+    <hr>
+
+    <h1>Exercício 10 - Desconto</h1>
+    <input type="number" id="preco10" placeholder="Preço">
+    <input type="number" id="desconto10" placeholder="Desconto %">
+    <button id="btn10">Calcular</button>
+    <p id="resultado10"></p>
+
+    <hr>
+
+    <h1>Exercício 11 - Login</h1>
+    <input type="text" id="usuario11" placeholder="Usuário">
+    <input type="password" id="senha11" placeholder="Senha">
+    <button id="btn11">Entrar</button>
+    <p id="resultado11"></p>
+    <div id="area11"></div>
+
+    <hr>
+
+    <h1>Exercício 12 - Carrinho</h1>
+    <input type="text" id="produto12" placeholder="Produto">
+    <input type="number" id="preco12" placeholder="Preço">
+    <button id="btn12">Adicionar</button>
+    <ul id="lista12"></ul>
+    <p id="total12">Total: R$ 0.00</p>
+
+    <hr>
+
+    <h1>Exercício 13 - Cadastro de alunos</h1>
+    <input type="text" id="nome13" placeholder="Nome">
+    <input type="number" id="idade13" placeholder="Idade">
+    <input type="text" id="curso13" placeholder="Curso">
+    <button id="btn13">Cadastrar</button>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Curso</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody id="tabela13"></tbody>
+    </table>
+
+    <hr>
+
+    <h1>Exercício 14 - Controle de vendas</h1>
+
+    <input type="text" id="produto14" placeholder="Produto">
+    <input type="number" id="quantidade14" placeholder="Quantidade">
+    <input type="number" id="preco14" placeholder="Preço unitário">
+    <button id="btn14">Adicionar venda</button>
+
+    <br><br>
+
+    <input type="text" id="busca14" placeholder="Pesquisar produto">
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="tabela14"></tbody>
+    </table>
+
+    <p id="itens14">Total de itens: 0</p>
+    <p id="faturamento14">Faturamento: R$ 0.00</p>
+
+    <hr>
+
+    <h1>Exercício 15 - Cadastro de alunos</h1>
+
+    <input type="text" id="nome15" placeholder="Nome">
+    <input type="text" id="ra15" placeholder="RA">
+    <input type="text" id="curso15" placeholder="Curso">
+    <input type="number" id="nota151" placeholder="Nota 1">
+    <input type="number" id="nota152" placeholder="Nota 2">
+    <button id="btn15">Cadastrar</button>
+
+    <br><br>
+
+    <input type="text" id="busca15" placeholder="Pesquisar aluno">
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>RA</th>
+                <th>Curso</th>
+                <th>Média</th>
+                <th>Situação</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+
+        <tbody id="tabela15"></tbody>
+    </table>
+
+    <p id="alunos15">Alunos: 0</p>
+    <p id="aprovados15">Aprovados: 0</p>
+    <p id="reprovados15">Reprovados: 0</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
